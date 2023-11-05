@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="responsive-website.css">
+    <title>Qatar World Cup 2022</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="test1.html"><img src="https://logodownload.org/wp-content/uploads/2018/07/world-cup-2022-logo-0.png"width="150px" height="150px"></a>
+        <div class="navs" id="links">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Matches</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Brackets</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <div class="maintext">
+            <h1>Qatar World Cup</h1>
+            <p>Travel to Qatar and be a part of football history</p>
+            <a href=""class="btn">Buy Tickets</a>
+        </div>
+    </header>
+    <section class="courses">
+        <h1>Are you ready for a FIFA World Cup™ like no other? </h1>
+        <p>With Qatar playing host to the first FIFA World Cup™ ever in the Arab world, a unique and extraordinary stage has been created for the teams, the players and, of course, you the fans. Explore the individual elements of your FIFA World Cup™ here, which we hope you enjoy during your time in Qatar.</p>
+    </section>
+    <script>
+        var navlinks=document.getElementById("links");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
